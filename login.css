@@ -1,0 +1,205 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+body {
+    height: 100%;
+    background-color: rgb(204, 199, 191);
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container-lg {
+    display: flex;
+    width: 500px;
+    height: auto;
+    *background-color: transparent;
+
+}
+
+.login {
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 30px 40px;
+    border-radius: 10px;
+    animation-name: borde;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes borde{
+    0%{
+border-radius: 0%;
+    }
+    100%{
+        border-top-left-radius: 20%;
+        border-bottom-left-radius: 20%;
+    }
+}
+
+.login .title {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 0 20px 0;
+    margin-top: 15px;
+    
+}
+
+.login h2 {
+    margin: 0;
+    padding: 0;
+    font-weight: unset;
+    display: block;
+}
+
+.login input {
+
+    width: 100%;
+    height: 50px;
+    border:none;
+    border-color: transparent;
+    border-bottom: black 2px solid;
+    font-size: 16px;
+}
+
+
+.login button {
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    outline: none;
+    font-size: large;
+    background-color:burlywood;
+}
+
+.login-redes i{
+    margin: 0px; 
+}
+
+.login .access:hover {
+    background-color: rgb(156, 116, 64);
+    cursor:pointer;
+}
+
+.login a{
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    color: darkgray;
+ 
+}
+
+.login a:hover {
+    color: black;
+}
+
+
+.login-redes{
+    width: 400px;
+    height: 500px;
+    color: white;
+    background-color: black;
+    box-sizing: border-box;
+    padding: 30px 45px;
+    border-radius: 10px;
+    animation-name: borden;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes borden{
+    0%{
+        border-radius: 0%
+    } 
+    100%{
+        border-top-right-radius: 20%;
+        border-bottom-right-radius: 20%;
+    }
+}
+
+.login-redes .title{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 0 20px 0;
+    margin-top: 15px;
+}
+
+.login-redes button{
+    width: 100%;
+    margin: 20px 0;
+    position: relative;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.login-redes button i{
+    position: absolute;
+    top: 12px;
+    left: 10px;
+}
+
+.login-redes .mail{
+    background-color: rgb(228, 74, 74);
+    color: white;
+    font-size: 10px;
+}
+
+.login-redes .mail:hover{
+    background-color: rgb(217, 74, 57, 0.8);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.login-redes .fb{
+    background-color: #3b5999;
+    color: white;
+    font-size: 10px;
+}
+
+.login-redes .fb:hover{
+    background-color: rgb(59, 89 ,153 , 0.8);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.login-redes .tw{
+    background-color: #00acee;
+    color: white;
+    font-size: 10px;
+}
+
+.login-redes .tw:hover{
+    background-color: rgb(0, 172, 238, 0.8);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.login-redes .ig{
+    background-image: linear-gradient(to bottom right,#515Bd4,#8134af, #DD2a7b, #FEDA77, #F58529 );
+    color: white;
+    font-size: 10px;
+}
+
+.login-redes .ig:hover{
+    background-image: linear-gradient(to bottom right, rgb(81, 91, 202, 0.8), rgb(129, 52, 175, 0.8), rgb(221, 42, 123, 0.8), rgb(254, 218, 119, 0.8), rgb(245, 133, 41, 0.8));
+    cursor: pointer;
+    text-decoration: underline;
+}
